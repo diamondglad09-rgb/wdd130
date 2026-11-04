@@ -13,6 +13,12 @@ aside {
     text-align: center;
 }
 
+aside ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
 aside img {
     width: 200px;
     height: auto;
