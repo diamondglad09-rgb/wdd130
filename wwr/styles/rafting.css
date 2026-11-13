@@ -33,6 +33,11 @@ header {
     padding: 10px 20px;
 }
 
+header img {
+    width: 60px;
+    height: auto;
+}
+
 header nav ul {
     display: flex;
     list-style: none;
@@ -58,11 +63,12 @@ header nav a {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 12px;
     text-align: center;
     background-color: rgba(38, 70, 83, 0.85);
     color: white;
     font-family: var(--heading-font);
+    font-size: 1.5rem;
 }
 
 .hero article {
@@ -70,20 +76,21 @@ header nav a {
     top: 120px;
     left: 20px;
     right: 20px;
-    background-color: var(--accent1-color);
-    padding: 15px;
+    background-color: rgba(233, 196, 106, 0.92);
+    padding: 12px 15px;
 }
 
 .hero article p {
     color: #000000;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 .hero article img {
     float: right;
-    width: 152px;
+    width: 120px;
     height: auto;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 h2 {
@@ -92,9 +99,8 @@ h2 {
     margin-top: 20px;
 }
 
-p {
-    color: #000000;
-    line-height: 1.5;
+section {
+    padding: 20px 0;
 }
 
 footer {
@@ -105,10 +111,12 @@ footer {
     text-align: center;
     padding: 30px 20px;
     margin-top: 40px;
+    background-color: var(--primary-color);
+    color: white;
 }
 
 footer p {
-    color: #000000;
+    color: white;
 }
 
 .socialmedia {
@@ -122,7 +130,7 @@ footer p {
 }
 
 .socialmedia img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: block;
 }
