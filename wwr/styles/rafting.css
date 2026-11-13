@@ -76,7 +76,7 @@ header nav a {
     top: 120px;
     left: 20px;
     right: 20px;
-    background-color: rgba(233, 196, 106, 0.92);
+    background-color: var(--accent1-color);
     padding: 12px 15px;
 }
 
