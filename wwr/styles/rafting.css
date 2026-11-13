@@ -2,7 +2,7 @@
     --primary-color: #264653;
     --secondary-color: #2ecc71;
     --accent1-color: #e9c46a;
-    --accent2-color: #f4a261;
+    --accent2-color: #000000;
     --heading-font: Georgia, serif;
     --body-font: Arial, Sans-serif;
 }
@@ -96,7 +96,7 @@ header nav a {
 
 h2 {
     font-family: var(--heading-font);
-    color: #000000;
+    color: var(--accent2-color);
     margin-top: 20px;
 }
 
