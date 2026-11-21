@@ -32,7 +32,6 @@ header {
     align-items: center;
     padding: 10px 20px;
     grid-template-columns: 1fr auto;
-    justify-content: flex-end;
 
 }
 
@@ -45,7 +44,6 @@ header nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
-    display: flex;
     justify-content: space-between;
 }
 
